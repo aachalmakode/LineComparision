@@ -33,11 +33,18 @@ double x1, y1, x2, y2;
   	    {
   	    	System.out.println("Length of Line1 "+len1+" is equal to Length of Line2 "+len2 );
 
+  	    
+            System.out.println("Length of Line1 = "+len1+" is equal to Length of Line2 = "+len2);
   	    }
+  	    else if(comparison<0)
+  	    {
+  	    	System.out.println("Length of Line1 = "+len1+" is less than to Length of Line2 = "+len2);	
+  	    }
+  	    else
+  	    {
+  	    	System.out.println("Length of Line1 = "+len1+" is greater than to Length of Line2 = "+len2);
+  	    }
+        }
+}
 
 
-
-	}
-} 
-
-	
